@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Home/Hero";
 import Client from "./Home/Client";
 import Unlock from "./Body/Unlock";
+import Achievements from "./Body/Achievements";
 
 const Nexcent = () => {
   return (
@@ -9,6 +10,7 @@ const Nexcent = () => {
       <Hero />
       <Client/>
       <Unlock/>
+      <Achievements/>
     </>
   );
 };
