@@ -3,12 +3,12 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav>
-        // Logo
+        {/* Logo */}
         <div>
             <img src="" alt="" />
         </div>
 
-        // Nav links
+        {/* Nav links */}
         <ul>
             <li>Home</li>
             <li>service</li>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <li>FAQ</li>
         </ul>
 
-        // Call to Action
+        {/* Call to Action */}
         <button>Login</button>
         <button>Sign up</button>
     </nav>
