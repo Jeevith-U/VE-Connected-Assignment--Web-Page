@@ -5,6 +5,7 @@ import Unlock from "./Body/Unlock";
 import Achievements from "./Body/Achievements";
 import Calender from "./Body/Calender";
 import Customers from "./Body/Customers";
+import Community from "./Body/Community";
 
 const Nexcent = () => {
   return (
@@ -15,6 +16,7 @@ const Nexcent = () => {
       <Achievements/>
       <Calender/>
       <Customers/>
+      <Community/>
     </>
   );
 };

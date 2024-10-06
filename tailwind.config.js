@@ -17,6 +17,9 @@ export default {
     },
     height: {
       home: "29rem"
+    },
+    boxShadow: {
+      'custom-light': '0 4px 8px #ABBED166'
     }
   },
   plugins: [],
