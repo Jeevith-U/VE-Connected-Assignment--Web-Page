@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nexcent = () => {
   return (
-    <div>Nexcent</div>
+    <div></div>
   )
 }
 

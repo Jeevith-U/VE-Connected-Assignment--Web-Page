@@ -1,8 +1,9 @@
 import React from 'react'
+import Button from '../../Components/Button'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='flex'>
         {/* Logo */}
         <div className='flex'>
             <img src="Icon.svg" alt="" />
@@ -10,7 +11,7 @@ const Navbar = () => {
         </div>
 
         {/* Nav links */}
-        <ul>
+        <ul className='flex w-full justify-evenly items-center'>
             <li>Home</li>
             <li>service</li>
             <li>feature</li>
@@ -20,8 +21,8 @@ const Navbar = () => {
         </ul>
 
         {/* Call to Action */}
-        <button>Login</button>
-        <button>Sign up</button>
+        <Button name={"Login"} bgOn={false}/>
+        <Button name={"Sing up"} bgOn={true}/>
     </nav>
   )
 }
