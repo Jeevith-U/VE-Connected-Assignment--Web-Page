@@ -4,8 +4,9 @@ const Navbar = () => {
   return (
     <nav>
         {/* Logo */}
-        <div>
-            <img src="" alt="" />
+        <div className='flex'>
+            <img src="Icon.svg" alt="" />
+            <img src="Nexcent.svg" alt="" className='ml-2'/>
         </div>
 
         {/* Nav links */}
