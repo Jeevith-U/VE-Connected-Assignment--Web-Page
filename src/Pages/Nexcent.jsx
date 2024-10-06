@@ -6,6 +6,7 @@ import Achievements from "./Body/Achievements";
 import Calender from "./Body/Calender";
 import Customers from "./Body/Customers";
 import Community from "./Body/Community";
+import Footer from "./Footer/footer";
 
 const Nexcent = () => {
   return (
@@ -17,6 +18,7 @@ const Nexcent = () => {
       <Calender/>
       <Customers/>
       <Community/>
+      <Footer/>
     </>
   );
 };

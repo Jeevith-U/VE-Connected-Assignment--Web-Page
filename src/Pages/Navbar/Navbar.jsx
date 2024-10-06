@@ -6,10 +6,7 @@ const Navbar = () => {
     <nav className="flex justify-center items-center py-6">
       <div className="flex justify-center items-center w-10/12">
         {/* Logo */}
-        <div className="flex mr-auto">
-          <img src="Icon.svg" alt="" className="h-6"/>
-          <img src="Nexcent.svg" alt="" className="ml-2 h-6" />
-        </div>
+        <Logo/>
 
         {/* Nav links */}
         <div className="w-7/12 flex justify-center items-center">
@@ -34,3 +31,12 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+export const Logo = ({light}) => {
+    return (
+        <div className={`flex mr-auto`}>
+          <img src={light ? "LogoDarkMode.svg" : "LogoLightMode.svg"} alt="" className="h-6" />
+        </div>
+    )
+}
