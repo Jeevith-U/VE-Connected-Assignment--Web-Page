@@ -1,4 +1,4 @@
-import Nexcent from './Pages/Home/Nexcent'
+import Nexcent from './Pages/Nexcent'
 import Navbar from './Pages/Navbar/Navbar'
 
 function App() {
